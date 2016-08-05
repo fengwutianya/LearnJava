@@ -21,7 +21,7 @@ class TextFrame extends Frame {
         num3 = new TextField(10);
         Label lbPlus = new Label("+");
         Button btnEqual = new Button("=");
-        btnEqual.addActionListener(new TxtFrmListener(this));
+        btnEqual.addActionListener(new TxtFrmListener());
         setLayout(new FlowLayout());
         add(num1);
         add(lbPlus);
@@ -31,18 +31,15 @@ class TextFrame extends Frame {
         pack();
         setVisible(true);
     }
-}
+    class TxtFrmListener implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            int n1 = Integer.parseInt(num1.getText());
+            int n2 = Integer.parseInt(num2.getText());
+            num3.setText(String.valueOf(n1+n2));
 
-class TxtFrmListener implements ActionListener {
-    TextFrame textFrame = null;
-    public TxtFrmListener(TextFrame textFrame) {
-        this.textFrame = textFrame;
-    }
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        int n1 = Integer.parseInt(textFrame.num1.getText());
-        int n2 = Integer.parseInt(textFrame.num2.getText());
-        textFrame.num3.setText(String.valueOf(n1+n2));
-
+        }
     }
 }
+
+
