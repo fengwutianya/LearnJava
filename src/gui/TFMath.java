@@ -14,13 +14,14 @@ public class TFMath {
 }
 
 class TextFrame extends Frame {
+    TextField num1, num2, num3;
     public void launchFrame() {
-        TextField num1 = new TextField(10);
-        TextField num2 = new TextField(10);
-        TextField num3 = new TextField(10);
+        num1 = new TextField(10);
+        num2 = new TextField(10);
+        num3 = new TextField(10);
         Label lbPlus = new Label("+");
         Button btnEqual = new Button("=");
-        btnEqual.addActionListener(new TxtFrmListener(num1, num2, num3));
+        btnEqual.addActionListener(new TxtFrmListener(this));
         setLayout(new FlowLayout());
         add(num1);
         add(lbPlus);
@@ -33,18 +34,15 @@ class TextFrame extends Frame {
 }
 
 class TxtFrmListener implements ActionListener {
-    TextField num1, num2, num3;
-
-    TxtFrmListener(TextField num1, TextField num2, TextField num3) {
-        this.num1 = num1;
-        this.num2 = num2;
-        this.num3 = num3;
+    TextFrame textFrame = null;
+    public TxtFrmListener(TextFrame textFrame) {
+        this.textFrame = textFrame;
     }
     @Override
     public void actionPerformed(ActionEvent e) {
-        int n1 = Integer.parseInt(num1.getText());
-        int n2 = Integer.parseInt(num2.getText());
-        num3.setText(String.valueOf(n1+n2));
+        int n1 = Integer.parseInt(textFrame.num1.getText());
+        int n2 = Integer.parseInt(textFrame.num2.getText());
+        textFrame.num3.setText(String.valueOf(n1+n2));
 
     }
 }
