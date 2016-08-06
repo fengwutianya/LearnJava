@@ -7,6 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
@@ -17,6 +18,7 @@ import java.net.UnknownHostException;
 public class ChatClient extends Frame{
     TextField textField = new TextField();
     TextArea textArea = new TextArea();
+    Socket s;
 
     public static void main(String[] args) {
         new ChatClient().launchFrame();
@@ -42,7 +44,7 @@ public class ChatClient extends Frame{
 
     public void connect() {
         try {
-            Socket s = new Socket("127.0.0.1", 8888);
+            s = new Socket("127.0.0.1", 8888);
             System.out.println("connected.");
         } catch (UnknownHostException e) {
             e.printStackTrace();
@@ -54,9 +56,17 @@ public class ChatClient extends Frame{
     private class TxtfldListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            String s = textField.getText().trim();
-            textArea.setText(s);
+            String string = textField.getText().trim();
+            textArea.setText(string);
             textField.setText("");
+            try {
+                DataOutputStream dos = new DataOutputStream(s.getOutputStream());
+                dos.writeUTF(string);
+                dos.flush();
+                dos.close();
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
         }
     }
 }

@@ -1,5 +1,6 @@
 package wechat;
 
+import java.io.DataInputStream;
 import java.io.IOException;
 import java.net.*;
 /**
@@ -12,6 +13,10 @@ public class ChatServer {
             while (true) {
                 Socket s = ss.accept();
                 System.out.println("A client connected.");
+                DataInputStream dis = new DataInputStream(s.getInputStream());
+                String s1 = dis.readUTF();
+                System.out.println(s1);
+                dis.close();
             }
         } catch (IOException e) {
             e.printStackTrace();
