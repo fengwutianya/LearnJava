@@ -7,6 +7,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
 
 /**
  * Created by xuan on 2016/8/6 0006.
@@ -34,6 +37,18 @@ public class ChatClient extends Frame{
         });
         textField.addActionListener(new TxtfldListener());
         setVisible(true);
+        connect();
+    }
+
+    public void connect() {
+        try {
+            Socket s = new Socket("127.0.0.1", 8888);
+            System.out.println("connected.");
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
     }
 
     private class TxtfldListener implements ActionListener {
