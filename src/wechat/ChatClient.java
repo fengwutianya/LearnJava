@@ -19,6 +19,7 @@ public class ChatClient extends Frame{
         setSize(600, 600);
         add(textField, BorderLayout.SOUTH);
         add(textArea, BorderLayout.NORTH);
+        pack();
         setVisible(true);
     }
 }
