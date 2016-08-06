@@ -8,14 +8,20 @@ import java.net.*;
  */
 public class ChatServer {
     public static void main(String[] args) {
+        boolean started = false;
         try {
             ServerSocket ss = new ServerSocket(8888);
-            while (true) {
+            started = true;
+            while (started) {
+                boolean connected = false;
                 Socket s = ss.accept();
                 System.out.println("A client connected.");
+                connected = true;
                 DataInputStream dis = new DataInputStream(s.getInputStream());
-                String s1 = dis.readUTF();
-                System.out.println(s1);
+                while (connected) {
+                    String s1 = dis.readUTF();
+                    System.out.println(s1);
+                }
                 dis.close();
             }
         } catch (IOException e) {

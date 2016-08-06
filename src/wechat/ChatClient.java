@@ -19,6 +19,7 @@ public class ChatClient extends Frame{
     TextField textField = new TextField();
     TextArea textArea = new TextArea();
     Socket s;
+    DataOutputStream dos = null;
 
     public static void main(String[] args) {
         new ChatClient().launchFrame();
@@ -33,6 +34,7 @@ public class ChatClient extends Frame{
         addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
+                disconnect();
                 setVisible(false);
                 System.exit(0);
             }
@@ -45,10 +47,19 @@ public class ChatClient extends Frame{
     public void connect() {
         try {
             s = new Socket("127.0.0.1", 8888);
+            dos = new DataOutputStream(s.getOutputStream());
             System.out.println("connected.");
         } catch (UnknownHostException e) {
             e.printStackTrace();
         } catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+
+    public void disconnect() {
+        try {
+            dos.close();
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
@@ -60,10 +71,9 @@ public class ChatClient extends Frame{
             textArea.setText(string);
             textField.setText("");
             try {
-                DataOutputStream dos = new DataOutputStream(s.getOutputStream());
                 dos.writeUTF(string);
                 dos.flush();
-                dos.close();
+//                dos.close();
             } catch (IOException e1) {
                 e1.printStackTrace();
             }
