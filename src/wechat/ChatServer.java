@@ -7,25 +7,59 @@ import java.net.*;
  * Created by xuan on 2016/8/6 0006.
  */
 public class ChatServer {
+
     public static void main(String[] args) {
-        boolean started = false;
-        try {
-            ServerSocket ss = new ServerSocket(8888);
-            started = true;
-            while (started) {
-                boolean connected = false;
-                Socket s = ss.accept();
-                System.out.println("A client connected.");
-                connected = true;
-                DataInputStream dis = new DataInputStream(s.getInputStream());
-                while (connected) {
-                    String s1 = dis.readUTF();
-                    System.out.println(s1);
+        ServerSocket ss = null;
+        Socket s = null;
+        while (true) {
+            try {
+                ss = new ServerSocket(8888);
+                s = ss.accept();
+                new Thread(new Client(s)).start();
+            } catch (IOException e) {
+                System.out.println("cannot bind to port 8888");
+                System.exit(-1);
+            } finally {
+                try {
+                    ss.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
-                dis.close();
             }
+        }
+    }
+}
+
+class Client implements Runnable {
+    private Socket s;
+    private DataInputStream dis = null;
+    private boolean bConnected = false;
+
+    public Client(Socket s) {
+        this.s = s;
+        try {
+            dis = new DataInputStream(s.getInputStream());
+            bConnected = true;
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+    @Override
+    public void run() {
+        try {
+            while (bConnected) {
+                String str = dis.readUTF();
+                System.out.println(this+" "+str);
+            }
+        } catch (IOException e) {
+            System.out.println(this+" Client closed!");
+        } finally {
+            try {
+                if (dis != null) dis.close();
+                if (s != null) s.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
