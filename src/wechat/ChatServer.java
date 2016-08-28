@@ -13,31 +13,39 @@ import java.util.List;
  */
 public class ChatServer {
     private static List<Client> clients = new LinkedList<Client>();
-
+    ServerSocket ss = null;
+    boolean started = true;
 
     public static void main(String[] args) {
-        ServerSocket ss = null;
-        Socket s = null;
-        while (true) {
-            try {
-                ss = new ServerSocket(8888);
-                s = ss.accept();
-                Client c = new ChatServer().new Client(s);
+        new ChatServer().start();
+    }
+
+    public void start() {
+        try {
+            ss = new ServerSocket(8888);
+            started = true;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            while (started) {
+                Socket s = ss.accept();
+                Client c = new Client(s);
                 new Thread(c).start();
                 clients.add(c);
-
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                ss.close();
             } catch (IOException e) {
-                System.out.println("cannot bind to port 8888");
-                System.exit(-1);
-            } finally {
-                try {
-                    ss.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+                e.printStackTrace();
             }
         }
     }
+
     class Client implements Runnable {
         private Socket s;
         private DataInputStream dis = null;
@@ -71,7 +79,9 @@ public class ChatServer {
                     System.out.println(this+" "+str);
                     for (int i = 0; i < clients.size(); i++) {
                         Client c = clients.get(i);
+                        if (c.equals(this)) continue;
                         c.send(str);
+                        System.out.println(" a String sent." + str);
                     }
 
                 }
@@ -88,7 +98,5 @@ public class ChatServer {
             }
         }
     }
-
-
 }
 

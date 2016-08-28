@@ -10,6 +10,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.*;
+import java.util.List;
 
 /**
  * Created by xuan on 2016/8/6 0006.
@@ -20,6 +22,18 @@ public class ChatClient extends Frame{
     Socket s;
     DataOutputStream dos = null;
     DataInputStream dis = null;
+    boolean bConnected = false;
+    Thread tRecv = new Thread(new RecvThread());
+
+    List<String> stringsToShow = new LinkedList<String>();
+
+    public void showStrings(List<String> stringsToShow) {
+        String s = "";
+        for (int i = 0; i < stringsToShow.size(); i++) {
+            s = s + stringsToShow.get(i) + "\n";
+        }
+        textArea.setText(s);
+    }
 
     public static void main(String[] args) {
         new ChatClient().launchFrame();
@@ -42,6 +56,8 @@ public class ChatClient extends Frame{
         textField.addActionListener(new TxtfldListener());
         setVisible(true);
         connect();
+
+        tRecv.start();
     }
 
     public void connect() {
@@ -49,6 +65,7 @@ public class ChatClient extends Frame{
             s = new Socket("127.0.0.1", 8888);
             dos = new DataOutputStream(s.getOutputStream());
             dis = new DataInputStream(s.getInputStream());
+            bConnected = true;
             System.out.println("connected.");
         } catch (UnknownHostException e) {
             e.printStackTrace();
@@ -61,6 +78,7 @@ public class ChatClient extends Frame{
         try {
             dos.close();
             dis.close();
+            s.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -70,7 +88,8 @@ public class ChatClient extends Frame{
         @Override
         public void actionPerformed(ActionEvent e) {
             String string = textField.getText().trim();
-            textArea.setText(string);
+            stringsToShow.add(string);
+            showStrings(stringsToShow);
             textField.setText("");
             try {
                 dos.writeUTF(string);
@@ -78,6 +97,24 @@ public class ChatClient extends Frame{
 //                dos.close();
             } catch (IOException e1) {
                 e1.printStackTrace();
+            }
+        }
+    }
+
+    private class RecvThread implements Runnable {
+        @Override
+        public void run() {
+            while (bConnected) {
+                String str;
+                try {
+                    System.out.println("recieve thread running...");
+                    str = dis.readUTF();
+                    System.out.println("recieved string " + str);
+                    stringsToShow.add(str);
+                    showStrings(stringsToShow);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
