@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>typeinfo.pets</OriginalElement>
+  <nodes>
+    <node x="281.0" y="240.0">typeinfo.pets.Manx</node>
+    <node x="528.0" y="240.0">typeinfo.pets.Hamster</node>
+    <node x="457.0" y="240.0">typeinfo.pets.Rat</node>
+    <node x="440.0673076923077" y="160.0">typeinfo.pets.Rodent</node>
+    <node x="256.5" y="0.0">typeinfo.pets.Individual</node>
+    <node x="305.0" y="80.0">typeinfo.pets.Person</node>
+    <node x="73.99999999999997" y="240.0">typeinfo.pets.Mutt</node>
+    <node x="152.99999999999997" y="240.0">typeinfo.pets.EgyptianMau</node>
+    <node x="230.7628205128205" y="160.0">typeinfo.pets.Cat</node>
+    <node x="365.0" y="240.0">typeinfo.pets.Mouse</node>
+    <node x="0.0" y="240.0">typeinfo.pets.Pug</node>
+    <node x="36.75" y="160.0">typeinfo.pets.Dog</node>
+    <node x="234.99999999999997" y="80.0">typeinfo.pets.Pet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="typeinfo.pets.Rat" target="typeinfo.pets.Rodent">
+      <point x="0.0" y="-15.0" />
+      <point x="482.5" y="215.0" />
+      <point x="477.0673076923077" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="typeinfo.pets.Mouse" target="typeinfo.pets.Rodent">
+      <point x="0.0" y="-15.0" />
+      <point x="401.0" y="215.0" />
+      <point x="452.400641025641" y="215.0" />
+      <point x="-24.666666666666668" y="15.0" />
+    </edge>
+    <edge source="typeinfo.pets.Pug" target="typeinfo.pets.Dog">
+      <point x="0.0" y="-15.0" />
+      <point x="27.0" y="215.0" />
+      <point x="51.0" y="215.0" />
+      <point x="-14.25" y="15.0" />
+    </edge>
+    <edge source="typeinfo.pets.Person" target="typeinfo.pets.Individual">
+      <point x="0.0" y="-15.0" />
+      <point x="341.0" y="55.0" />
+      <point x="322.5" y="55.0" />
+      <point x="22.0" y="15.0" />
+    </edge>
+    <edge source="typeinfo.pets.Hamster" target="typeinfo.pets.Rodent">
+      <point x="0.0" y="-15.0" />
+      <point x="568.5" y="215.0" />
+      <point x="501.73397435897436" y="215.0" />
+      <point x="24.66666666666667" y="15.0" />
+    </edge>
+    <edge source="typeinfo.pets.Dog" target="typeinfo.pets.Pet">
+      <point x="0.0" y="-15.0" />
+      <point x="65.25" y="135.0" />
+      <point x="243.33333333333331" y="135.0" />
+      <point x="-16.66666666666667" y="15.0" />
+    </edge>
+    <edge source="typeinfo.pets.Pet" target="typeinfo.pets.Individual">
+      <point x="0.0" y="-15.0" />
+      <point x="260.0" y="55.0" />
+      <point x="278.5" y="55.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="typeinfo.pets.Manx" target="typeinfo.pets.Cat">
+      <point x="0.0" y="-15.0" />
+      <point x="313.0" y="215.0" />
+      <point x="269.0128205128205" y="215.0" />
+      <point x="12.75" y="15.0" />
+    </edge>
+    <edge source="typeinfo.pets.Cat" target="typeinfo.pets.Pet">
+      <point x="0.0" y="-15.0" />
+      <point x="256.2628205128205" y="135.0" />
+      <point x="260.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="typeinfo.pets.EgyptianMau" target="typeinfo.pets.Cat">
+      <point x="0.0" y="-15.0" />
+      <point x="206.99999999999997" y="215.0" />
+      <point x="243.5128205128205" y="215.0" />
+      <point x="-12.75" y="15.0" />
+    </edge>
+    <edge source="typeinfo.pets.Rodent" target="typeinfo.pets.Pet">
+      <point x="0.0" y="-15.0" />
+      <point x="477.0673076923077" y="135.0" />
+      <point x="276.66666666666663" y="135.0" />
+      <point x="16.666666666666686" y="15.0" />
+    </edge>
+    <edge source="typeinfo.pets.Mutt" target="typeinfo.pets.Dog">
+      <point x="0.0" y="-15.0" />
+      <point x="103.49999999999997" y="215.0" />
+      <point x="79.5" y="215.0" />
+      <point x="14.25" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="325.0" y="135.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
