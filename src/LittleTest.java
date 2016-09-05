@@ -5,9 +5,20 @@ import typeinfo.toys.ToyTest;
  */
 public class LittleTest extends ToyTest{
     public static void main(String[] args) {
-        LittleTest lt = new LittleTest();
-        Class c = lt.getClass();
-        System.out.println(c);
-        System.out.println(c.getSuperclass());
+        try {
+            throwException();
+        } catch (Exception e) {
+//            System.out.println("inside catch");
+            throw new RuntimeException("runtime exception");
+        } finally {
+            //this is gonna work anyway
+            System.out.println("inside finally");
+        }
+        //not exception(RuntimeException) thrown, it's gonna work
+        System.out.println("after catch and finally");
+    }
+
+    static void throwException() throws Exception {
+        throw new Exception("Exception!");
     }
 }
