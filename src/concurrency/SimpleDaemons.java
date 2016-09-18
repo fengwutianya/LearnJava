@@ -3,6 +3,8 @@ package concurrency;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 后台线程daemons提供服务，非后台线程全部运行完
+ * 后台线程也结束
  * Created by xuan on 2016/9/18 0018.
  */
 public class SimpleDaemons implements Runnable{
@@ -25,6 +27,6 @@ public class SimpleDaemons implements Runnable{
             daemon.start();
         }
         System.out.println("All daemons started");
-        TimeUnit.MILLISECONDS.sleep(100);
+        TimeUnit.MILLISECONDS.sleep(200);
     }
 }
