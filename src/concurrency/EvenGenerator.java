@@ -3,7 +3,7 @@ package concurrency;
 /**
  * Created by xuan on 2016/9/19 0019.
  */
-public class EvenGenerator extends intGenerator {
+public class EvenGenerator extends INT {
     private int currentEvenValue = 0;
 
     @Override
