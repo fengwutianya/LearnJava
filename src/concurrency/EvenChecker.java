@@ -7,10 +7,10 @@ import java.util.concurrent.Executors;
  * Created by xuan on 2016/9/19 0019.
  */
 public class EvenChecker implements Runnable {
-    private IntGenerator generator;
+    private intGenerator generator;
     private final int id;
 
-    public EvenChecker(IntGenerator g, int ident) {
+    public EvenChecker(intGenerator g, int ident) {
         generator = g;
         id = ident;
     }
@@ -26,7 +26,7 @@ public class EvenChecker implements Runnable {
         }
     }
 
-    public static void test(IntGenerator gp, int count) {
+    public static void test(intGenerator gp, int count) {
         ExecutorService exec =
                 Executors.newCachedThreadPool();
         for (int i = 0; i < count; i++) {
@@ -35,7 +35,7 @@ public class EvenChecker implements Runnable {
         exec.shutdown();
     }
 
-    public static void test(IntGenerator gp) {
+    public static void test(intGenerator gp) {
         test(gp, 10);
     }
 }
