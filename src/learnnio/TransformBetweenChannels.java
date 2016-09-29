@@ -18,7 +18,7 @@ public class TransformBetweenChannels {
         FileChannel toChannel = toFile.getChannel();
 
         long position = 0;
-        long count = toChannel.size();
+        long count = fromChannel.size();
 
         toChannel.transferFrom(fromChannel, position, count);
         fromChannel.close();
