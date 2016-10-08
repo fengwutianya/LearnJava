@@ -1,4 +1,4 @@
-package javaConcurInPrac;
+package javaConcurInPrac.ch01;
 
 import net.jcip.annotations.NotThreadSafe;
 
