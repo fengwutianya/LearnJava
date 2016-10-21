@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
- * java.util.concurrent.atomicÔ­×ÓĞÔ²Ù×÷
+ * java.util.concurrent.atomicåŸå­æ€§æ“ä½œ
  * Created by xuan on 2016/10/8 0008.
  */
 @NotThreadSafe
