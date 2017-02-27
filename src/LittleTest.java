@@ -5,17 +5,22 @@ import typeinfo.toys.ToyTest;
  */
 public class LittleTest extends ToyTest{
     public static void main(String[] args) {
-        try {
-            throwException();
-        } catch (Exception e) {
-//            System.out.println("inside catch");
-            throw new RuntimeException("runtime exception");
-        } finally {
-            //this is gonna work anyway
-            System.out.println("inside finally");
-        }
-        //not exception(RuntimeException) thrown, it's gonna work
-        System.out.println("after catch and finally");
+//        try {
+//            throwException();
+//        } catch (Exception e) {
+////            System.out.println("inside catch");
+//            throw new RuntimeException("runtime exception");
+//        } finally {
+//            //this is gonna work anyway
+//            System.out.println("inside finally");
+//        }
+//        //not exception(RuntimeException) thrown, it's gonna work
+//        System.out.println("after catch and finally");
+        Class cl = int[].class;
+        cl = Double[].class;
+        cl = double[].class;
+        cl = ToyTest.class;
+        System.out.println(cl);
     }
 
     static void throwException() throws Exception {
