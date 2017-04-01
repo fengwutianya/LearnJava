@@ -3,3 +3,4 @@ libs/
 *.jar
 *.xml
 out/
+.idea/
