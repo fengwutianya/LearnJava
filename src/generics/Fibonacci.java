@@ -11,6 +11,9 @@ public class Fibonacci implements Generator<Integer> {
     public Fibonacci(int count) {
         this.count = count;
     }
+    public Fibonacci() {
+        this(Integer.MAX_VALUE);
+    }
     private int fibonacci(int num) {
         if (num < 2) return 1;
         else
@@ -26,7 +29,6 @@ public class Fibonacci implements Generator<Integer> {
 
     public static void main(String[] args) {
         Fibonacci fibonacci = new Fibonacci(6);
-        System.out.println(fibonacci.next());
         System.out.println(fibonacci.next());
         System.out.println(fibonacci.next());
         System.out.println(fibonacci.next());
