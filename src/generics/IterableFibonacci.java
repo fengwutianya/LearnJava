@@ -28,6 +28,11 @@ public class IterableFibonacci extends Fibonacci implements Iterable<Integer> {
                 }
                 return null;
             }
+
+            @Override
+            public void remove() {
+                throw new UnsupportedOperationException("remove");
+            }
         };
     }
 

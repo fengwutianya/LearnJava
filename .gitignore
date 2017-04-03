@@ -4,3 +4,4 @@ libs/
 *.xml
 out/
 .idea/
+*.class
