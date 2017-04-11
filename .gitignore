@@ -5,4 +5,4 @@ libs/
 out/
 .idea/
 *.class
-*.ser
+#*.ser
