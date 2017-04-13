@@ -45,7 +45,7 @@ public class TransDemo2 {
 class Fool implements Serializable {
     int w;
     transient int x;
-    transient static int y;
+    static int y;
     int z;
 
     public Fool() {

@@ -1,245 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="152fe56a-d224-45b3-b38f-e81694121b1b" name="Default" comment="class.getName() class.getSimpleName()">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serilization/TransDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serilization/TransDemo2.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12__2_.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/Apple.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/Apple.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Apple.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Apple.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/ApplesAndOrangesWithGenerics.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/ApplesAndOrangesWithGenerics.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/ApplesAndOrangesWithoutGenerics.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/ApplesAndOrangesWithoutGenerics.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Atomicity.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Atomicity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/BasicContainer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/BasicContainer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/BasicThreads.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/BasicThreads.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/BoundedClassReferences.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/BoundedClassReferences.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/Braeburn.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/Braeburn.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/BufferedInputFile.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/BufferedInputFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/enumerated/Burrito.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/enumerated/Burrito.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/CachedFactorizer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/CachedFactorizer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CachedThreadPool.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CachedThreadPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CallableDemo.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CallableDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Candy.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Candy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CaptureUncaughtException.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CaptureUncaughtException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Cat.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Cat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/CeilingFan.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/CeilingFan.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/CeilingFanOffCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/CeilingFanOffCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/CeilingFanOnCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/CeilingFanOnCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient$1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient$RecvThread.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient$RecvThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient$TxtfldListener.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient$TxtfldListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatServer$Client.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatServer$Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatServer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/CheesePizza.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/CheesePizza.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Circle.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Circle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/ClamPizza.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/ClamPizza.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/ClassInitialization.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/ClassInitialization.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Command.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Command.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/strings/Concatenation.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/strings/Concatenation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Cookie.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Cookie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/CountedInteger.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/CountedInteger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/CounterWithAutoboxing.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/CounterWithAutoboxing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/CounterWithoutAutoboxing.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/CounterWithoutAutoboxing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/CountingFactorizer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/CountingFactorizer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CriticalSection.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CriticalSection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Cymric.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Cymric.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/DaemonFromFactory.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/DaemonFromFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/DaemonThreadFactory.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/DaemonThreadFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoDotClass.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoDotClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoForName.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoForName.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetAccessFields.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetAccessFields.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoGetClass.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoGetClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetConstructors.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetConstructors.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetDeclaredFields.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetDeclaredFields.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetMethods.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetMethods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoNewInstance.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoNewInstance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoNewInstanceWithoutDefaultConstructor.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoNewInstanceWithoutDefaultConstructor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoNewInstanceWithparams.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoNewInstanceWithparams.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoReflectObjectSubclassMethods.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoReflectObjectSubclassMethods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/DirFilter.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/DirFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/DirList.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/DirList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Dog.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Dog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/EgyptianMau.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/EgyptianMau.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/enumerated/EnumClass.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/enumerated/EnumClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/EvenChecker.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/EvenChecker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/EvenGenerator.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/EvenGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/algorithms/sort/Example.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/algorithms/sort/Example.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/ExceptionThread.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/ExceptionThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/ExceptionThread2.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/ExceptionThread2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/ExpensiveObject.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/ExpensiveObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Factory.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Factory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/FactoryWithRTTI.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/FactoryWithRTTI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/FancyToy.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/FancyToy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/FilledList.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/FilledList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/FixedThreadPool.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/FixedThreadPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/ForNameCreator.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/ForNameCreator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/FormattedMemoryInput.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/FormattedMemoryInput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Fruit.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Fruit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/Fuji.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/Fuji.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/Gala.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/Gala.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoor.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoorDownCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoorDownCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoorOpenCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoorOpenCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoorUpCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoorUpCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/GenericClassReferences.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/GenericClassReferences.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/GenericToyTest.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/GenericToyTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/GenericsAndUpcasting.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/GenericsAndUpcasting.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/GrannySmith.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/GrannySmith.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Gum.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Gum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Hamster.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Hamster.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/HandlerThreadFactory.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/HandlerThreadFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/HasBatteries.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/HasBatteries.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Hottub.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Hottub.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/HottubOffCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/HottubOffCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/HottubOnCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/HottubOnCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Individual.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Individual.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Initable.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Initable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Initable2.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Initable2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Initable3.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Initable3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/IntGenerator.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/IntGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Joiner.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Joiner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Joining.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Joining.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/LazyInitRace.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/LazyInitRace.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/LiftOff.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/LiftOff.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Light.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Light.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LightOffCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LightOffCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LightOnCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LightOnCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/LittleTest.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/LittleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LivingroomLightOffCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LivingroomLightOffCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LivingroomLightOnCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LivingroomLightOnCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/LoggingWidget.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/LoggingWidget.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MainThread.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MainThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Manx.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Manx.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/MemoryInput.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/MemoryInput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/Monitor.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/Monitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MoreBasicThreads.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MoreBasicThreads.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Mouse.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Mouse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MutexEvenGenerator.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MutexEvenGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Mutt.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Mutt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyFilenameFilter.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyFilenameFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyFilterTree.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyFilterTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/MyFrame$1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/MyFrame$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/MyFrame$Monitor.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/MyFrame$Monitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/MyFrame.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/MyFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/MyIterator.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/MyIterator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/MyMouseAdapter.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/MyMouseAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyScanner.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyScanner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyTest.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyTree.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MyUncaughtExceptionHandler.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MyUncaughtExceptionHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/Name.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/Name.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/NativeExceptionHandling.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/NativeExceptionHandling.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/NoCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/NoCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/Orange.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/Orange.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Orange.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Orange.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/InnerClass/OuterClass$InnerClass.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/InnerClass/OuterClass$InnerClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/InnerClass/OuterClass.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/InnerClass/OuterClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Pair$PairValuesNotEqualException.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Pair$PairValuesNotEqualException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Pair.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Pair.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/PairManager.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/PairManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/PepperoniPizza.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/PepperoniPizza.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Person.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person2.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person2.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person3.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person3.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person4.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person5.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person6.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Pet.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Pet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/PetCreator.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/PetCreator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/Pizza.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/Pizza.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/PizzaStore.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/PizzaStore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Pug.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Pug.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Rat.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Rat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/reflection/Reflection.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/reflection/Reflection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/RemoteControl.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/RemoteControl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/RemoteControlTest.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/RemoteControlTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/RemoteLoader.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/RemoteLoader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/ResponsiveUI.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/ResponsiveUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Rodent.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Rodent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SelfManaged.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SelfManaged.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch01/Sequence.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch01/Sequence.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SettingDefaultHandler.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SettingDefaultHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Shape.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Shape.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/Shoots.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/Shoots.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/enumerated/Shrubbery.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/enumerated/Shrubbery.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SimpleDaemons.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SimpleDaemons.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/SimplePizzaFactory.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/SimplePizzaFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/SimpleRemoteControl.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/SimpleRemoteControl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SingleThreadPool.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SingleThreadPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Sleeper.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Sleeper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SleepingTask.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SleepingTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/enumerated/Spiciness.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/enumerated/Spiciness.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Square.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Square.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/StatelessFactorizer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/StatelessFactorizer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Stereo.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Stereo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/StereoOffCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/StereoOffCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/StereoOnWithCDCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/StereoOnWithCDCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/SweetShop.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/SweetShop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SynchronizedEvenGenerator.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SynchronizedEvenGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/SynchronizedFactorizer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/SynchronizedFactorizer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TCPClient.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TCPClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TCPServer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TCPServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/TFActionListener.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/TFActionListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/TFFrame.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/TFFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/TFMath.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/TFMath.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/TaskWithResult.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/TaskWithResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/TestActionEvent.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/TestActionEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestBufferStream1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestBufferStream1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestBufferedStream2.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestBufferedStream2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestByteArrayInputStream.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestByteArrayInputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TestClient.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TestClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestDataStream.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestDataStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestEOF.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestEOF.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learn/exception/TestException.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learn/exception/TestException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestFile.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestFileInputStream.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestFileInputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestFileWriter.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestFileWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/http/TestHTTP.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/http/TestHTTP.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/http/TestHTTPTest.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/http/TestHTTPTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerClass$1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerClass$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerClass$OneTest.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerClass$OneTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerClass.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClass$1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClass$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClass.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClassEasy$1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClassEasy$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClassEasy.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClassEasy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInputStreamReader.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInputStreamReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestIsRr.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestIsRr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestPrintStream1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestPrintStream1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestPrintStream2.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestPrintStream2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TestServer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TestServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/TestTextFieldActionEvent.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/TestTextFieldActionEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestTransForm1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestTransForm1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestTransForm2.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestTransForm2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/TextFrame$TxtFrmListener.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/TextFrame$TxtFrmListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/TextFrame.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/TextFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/Toy.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/Toy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/ToyTest.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/ToyTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Triangle.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Triangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/UnresponsiveUI.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/UnresponsiveUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/UnsafeCachingFactorizer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/UnsafeCachingFactorizer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/UnsafeCountingFactorizer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/UnsafeCountingFactorizer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch01/UnsafeSequence.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch01/UnsafeSequence.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/strings/UsingStringBuilder.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/strings/UsingStringBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/VeggiePizza.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/VeggiePizza.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/WaterProof.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/WaterProof.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/strings/WhitherStringBuilder.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/strings/WhitherStringBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javanet/WhoAmI.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javanet/WhoAmI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/Widget.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/Widget.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnjdbc/learnsql.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnjdbc/learnsql.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/shapes.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/shapes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.iml" afterPath="$PROJECT_DIR$/LearnJava.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" />
+    <list default="true" id="152fe56a-d224-45b3-b38f-e81694121b1b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serilization/TransDemo2.java" afterPath="$PROJECT_DIR$/src/serilization/TransDemo2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/y.ser" afterPath="$PROJECT_DIR$/y.ser" />
     </list>
     <ignored path="LearnJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -267,7 +32,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -287,14 +54,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
-              <folding>
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -302,8 +62,18 @@
       <file leaf-file-name="TransDemo2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/serilization/TransDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.044">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.388">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="y.ser" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/y.ser">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -314,16 +84,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoDotClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/learnRTTI/DemoDotClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -342,8 +102,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6028708">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state vertical-scroll-proportion="-0.6961326">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -546,46 +306,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="serilization" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransDemo2.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="serilization" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1135,7 +855,7 @@
       <workItem from="1491052984491" duration="5649000" />
       <workItem from="1491233108463" duration="4305000" />
       <workItem from="1491748283839" duration="7193000" />
-      <workItem from="1491923065065" duration="1442000" />
+      <workItem from="1491923065065" duration="4947000" />
     </task>
     <task id="LOCAL-00001" summary="init algorithms sort">
       <created>1475910967302</created>
@@ -1185,11 +905,23 @@
       <option name="project" value="LOCAL" />
       <updated>1491234906938</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="serialization">
+      <created>1491924562719</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1491924562719</updated>
+    </task>
+    <task id="LOCAL-00010" summary="y.ser">
+      <created>1491924798775</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1491924798775</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58513000" />
+    <option name="totallyTimeSpent" value="62018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1442" height="875" extended-state="6" />
@@ -1245,7 +977,9 @@
     <MESSAGE value="生成器模式generator，适配器模式IterableFibonacci" />
     <MESSAGE value="generics" />
     <MESSAGE value="class.getName() class.getSimpleName()" />
-    <option name="LAST_COMMIT_MESSAGE" value="class.getName() class.getSimpleName()" />
+    <MESSAGE value="serialization" />
+    <MESSAGE value="y.ser" />
+    <option name="LAST_COMMIT_MESSAGE" value="y.ser" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1256,13 +990,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/javaConcurInPrac/ch02/StatelessFactorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/sort/Example.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1571,7 +1298,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1611,29 +1340,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
-          <folding>
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/y.ser">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6028708">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state vertical-scroll-proportion="-0.6961326">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/serilization/TransDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.044">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.388">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding />
         </state>
       </provider>
