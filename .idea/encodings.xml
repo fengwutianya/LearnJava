@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/libs/commons-collections4-4.0.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/commons-collections4-4.0.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/commons-lang3-3.4.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/slf4j-api-1.7.5.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/TestUtil.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/javaConcurInPrac/ch02/CountingFactorizer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/jdbc.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/path/jdbc.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/util" charset="UTF-8" />
   </component>
 </project>

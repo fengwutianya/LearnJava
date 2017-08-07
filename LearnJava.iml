@@ -23,5 +23,8 @@
     <orderEntry type="library" name="algs4" level="project" />
     <orderEntry type="library" name="jcip-annotations" level="project" />
     <orderEntry type="library" name="junit-4.12 (2)" level="project" />
+    <orderEntry type="library" name="commons-lang3-3.4" level="project" />
+    <orderEntry type="library" name="slf4j-api-1.7.5" level="project" />
+    <orderEntry type="library" name="commons-collections4-4.0" level="project" />
   </component>
 </module>
