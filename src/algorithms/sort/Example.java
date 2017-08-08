@@ -33,10 +33,10 @@ public class Example {
         return true;
     }
 
-    public static void main(String[] args) {
-        String[] a = In.readStrings();
-        sort(a);
-        assert isSorted(a);
-        show(a);
-    }
+//    public static void main(String[] args) {
+//        String[] a = In.readStrings();
+//        sort(a);
+//        assert isSorted(a);
+//        show(a);
+//    }
 }

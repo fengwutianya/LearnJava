@@ -1,29 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="152fe56a-d224-45b3-b38f-e81694121b1b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/util/ArrayUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/util/CastUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/util/ClassUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/util/CollectionUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/DynamicProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package1/Father.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FibTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designPatterns/proxy/staticProxy/Hello.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designPatterns/proxy/staticProxy/HelloImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designPatterns/proxy/staticProxy/HelloProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/util/PropsUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/util/ReflectionUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/package2/Son.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/util/StringUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestGetClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestInvokeByteCode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/learn/exception/TryCatchFinally.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/LittleTest.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/LittleTest.class" />
+    <list default="true" id="152fe56a-d224-45b3-b38f-e81694121b1b" name="Default" comment="静态代理 Hello接口 Hello接口的实现类HelloImpl 静态代理类HelloProxy&#10;动态代理 DynamicProxy implements InvocationHandler 实现invoke方法，使用的时候工厂方法Proxy.newProxy(hello.getClass().getClassLoader, hello.getClass().getInterfaces(), dynamicProxy);这样产生新类的对象helloProxy，helloProxy.代理方法 执行即可">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/CGlibProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/ElectricCar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/GenerateProxyForElectricCar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/InvocationHandlerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/Rechargable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/Vehicle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12__2_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/Apple.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/Apple.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Apple.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Apple.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/ApplesAndOrangesWithGenerics.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/ApplesAndOrangesWithGenerics.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/ApplesAndOrangesWithoutGenerics.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/ApplesAndOrangesWithoutGenerics.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Atomicity.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Atomicity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/BasicContainer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/BasicContainer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/BasicThreads.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/BasicThreads.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/BoundedClassReferences.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/BoundedClassReferences.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/Braeburn.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/Braeburn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/BufferedInputFile.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/BufferedInputFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/enumerated/Burrito.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/enumerated/Burrito.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/CachedFactorizer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/CachedFactorizer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CachedThreadPool.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CachedThreadPool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CallableDemo.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CallableDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Candy.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Candy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CaptureUncaughtException.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CaptureUncaughtException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Cat.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Cat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/CeilingFan.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/CeilingFan.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/CeilingFanOffCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/CeilingFanOffCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/CeilingFanOnCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/CeilingFanOnCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient$1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient$RecvThread.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient$RecvThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient$TxtfldListener.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient$TxtfldListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatServer$Client.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatServer$Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatServer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/wechat/ChatServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/CheesePizza.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/CheesePizza.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Circle.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Circle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/ClamPizza.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/ClamPizza.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/ClassInitialization.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/ClassInitialization.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Command.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Command.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/strings/Concatenation.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/strings/Concatenation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Cookie.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Cookie.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/CountedInteger.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/CountedInteger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/CounterWithAutoboxing.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/CounterWithAutoboxing.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/CounterWithoutAutoboxing.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/CounterWithoutAutoboxing.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/CountingFactorizer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/CountingFactorizer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CriticalSection.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/CriticalSection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Cymric.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Cymric.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/DaemonFromFactory.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/DaemonFromFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/DaemonThreadFactory.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/DaemonThreadFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoDotClass.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoDotClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoForName.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoForName.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetAccessFields.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetAccessFields.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoGetClass.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoGetClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetConstructors.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetConstructors.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetDeclaredFields.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetDeclaredFields.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetMethods.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoGetMethods.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoNewInstance.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/DemoNewInstance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoNewInstanceWithoutDefaultConstructor.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoNewInstanceWithoutDefaultConstructor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoNewInstanceWithparams.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoNewInstanceWithparams.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoReflectObjectSubclassMethods.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/DemoReflectObjectSubclassMethods.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/DirFilter.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/DirFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/DirList.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/DirList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Dog.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Dog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/EgyptianMau.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/EgyptianMau.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/enumerated/EnumClass.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/enumerated/EnumClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/EvenChecker.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/EvenChecker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/EvenGenerator.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/EvenGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/algorithms/sort/Example.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/algorithms/sort/Example.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/ExceptionThread.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/ExceptionThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/ExceptionThread2.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/ExceptionThread2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/ExpensiveObject.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/ExpensiveObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Factory.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/FactoryWithRTTI.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/FactoryWithRTTI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/FancyToy.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/FancyToy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/FilledList.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/FilledList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/FixedThreadPool.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/FixedThreadPool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/ForNameCreator.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/ForNameCreator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/FormattedMemoryInput.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/FormattedMemoryInput.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Fruit.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Fruit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/Fuji.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/Fuji.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/Gala.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/Gala.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoor.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoorDownCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoorDownCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoorOpenCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoorOpenCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoorUpCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/GarageDoorUpCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/GenericClassReferences.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/GenericClassReferences.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/GenericToyTest.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/GenericToyTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/GenericsAndUpcasting.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/GenericsAndUpcasting.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/GrannySmith.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/GrannySmith.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Gum.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Gum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Hamster.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Hamster.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/HandlerThreadFactory.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/HandlerThreadFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/HasBatteries.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/HasBatteries.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Hottub.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Hottub.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/HottubOffCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/HottubOffCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/HottubOnCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/HottubOnCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Individual.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Individual.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Initable.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Initable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Initable2.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Initable2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Initable3.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Initable3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/IntGenerator.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/IntGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Joiner.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Joiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Joining.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Joining.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/LazyInitRace.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/LazyInitRace.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/LiftOff.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/LiftOff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Light.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Light.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LightOffCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LightOffCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LightOnCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LightOnCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LivingroomLightOffCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LivingroomLightOffCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LivingroomLightOnCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/LivingroomLightOnCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/LoggingWidget.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/LoggingWidget.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MainThread.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MainThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Manx.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Manx.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/MemoryInput.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/MemoryInput.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/Monitor.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/Monitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MoreBasicThreads.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MoreBasicThreads.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Mouse.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Mouse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MutexEvenGenerator.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MutexEvenGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Mutt.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Mutt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyFilenameFilter.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyFilenameFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyFilterTree.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyFilterTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/MyFrame$1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/MyFrame$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/MyFrame$Monitor.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/MyFrame$Monitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/MyFrame.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/MyFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/MyIterator.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/MyIterator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/MyMouseAdapter.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/MyMouseAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyScanner.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyScanner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyTest.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyTree.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/MyTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MyUncaughtExceptionHandler.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/MyUncaughtExceptionHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/Name.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/Name.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/NativeExceptionHandling.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/NativeExceptionHandling.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/NoCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/NoCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/container/Orange.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/container/Orange.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Orange.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Orange.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/InnerClass/OuterClass$InnerClass.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/InnerClass/OuterClass$InnerClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/InnerClass/OuterClass.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/InnerClass/OuterClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Pair$PairValuesNotEqualException.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Pair$PairValuesNotEqualException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Pair.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Pair.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/PairManager.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/PairManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/PepperoniPizza.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/PepperoniPizza.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Person.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Person.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person2.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person2.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person3.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/Person3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person3.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person4.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person5.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person6.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnRTTI/learnReflection/Person6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Pet.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Pet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/PetCreator.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/PetCreator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/Pizza.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/Pizza.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/PizzaStore.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/PizzaStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Pug.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Pug.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Rat.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Rat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/reflection/Reflection.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/reflection/Reflection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/RemoteControl.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/RemoteControl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/RemoteControlTest.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/RemoteControlTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/RemoteLoader.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/RemoteLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/ResponsiveUI.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/ResponsiveUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Rodent.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/pets/Rodent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SelfManaged.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SelfManaged.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch01/Sequence.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch01/Sequence.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SettingDefaultHandler.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SettingDefaultHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Shape.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Shape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/Shoots.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/Shoots.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/enumerated/Shrubbery.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/enumerated/Shrubbery.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SimpleDaemons.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SimpleDaemons.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/SimplePizzaFactory.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/SimplePizzaFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/SimpleRemoteControl.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/SimpleRemoteControl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SingleThreadPool.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SingleThreadPool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Sleeper.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/Sleeper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SleepingTask.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SleepingTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/enumerated/Spiciness.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/enumerated/Spiciness.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Square.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Square.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/StatelessFactorizer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/StatelessFactorizer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Stereo.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/Stereo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/StereoOffCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/StereoOffCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/StereoOnWithCDCommand.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/command/StereoOnWithCDCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/SweetShop.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/SweetShop.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SynchronizedEvenGenerator.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/SynchronizedEvenGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/SynchronizedFactorizer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/SynchronizedFactorizer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TCPClient.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TCPClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TCPServer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TCPServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/TFActionListener.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/TFActionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/TFFrame.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/TFFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/TFMath.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/TFMath.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/TaskWithResult.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/TaskWithResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/TestActionEvent.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/TestActionEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestBufferStream1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestBufferStream1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestBufferedStream2.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestBufferedStream2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestByteArrayInputStream.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestByteArrayInputStream.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TestClient.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TestClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestDataStream.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestDataStream.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestEOF.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestEOF.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learn/exception/TestException.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learn/exception/TestException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestFile.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestFileInputStream.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestFileInputStream.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestFileWriter.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestFileWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/http/TestHTTP.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/http/TestHTTP.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/http/TestHTTPTest.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/http/TestHTTPTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerClass$1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerClass$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerClass$OneTest.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerClass$OneTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerClass.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClass$1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClass$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClass.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClassEasy$1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClassEasy$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClassEasy.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInnerUnnamedClassEasy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInputStreamReader.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestInputStreamReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestIsRr.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestIsRr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestPrintStream1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestPrintStream1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestPrintStream2.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestPrintStream2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TestServer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javanet/tcp/TestServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/TestTextFieldActionEvent.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/TestTextFieldActionEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestTransForm1.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestTransForm1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestTransForm2.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnio/TestTransForm2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/TextFrame$TxtFrmListener.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/TextFrame$TxtFrmListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/gui/TextFrame.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/gui/TextFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/Toy.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/Toy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/ToyTest.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/ToyTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Triangle.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/Triangle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/concurrency/UnresponsiveUI.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/concurrency/UnresponsiveUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/UnsafeCachingFactorizer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/UnsafeCachingFactorizer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/UnsafeCountingFactorizer.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/UnsafeCountingFactorizer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch01/UnsafeSequence.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch01/UnsafeSequence.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/strings/UsingStringBuilder.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/strings/UsingStringBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/VeggiePizza.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/designPatterns/simpleFactory/VeggiePizza.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/WaterProof.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/toys/WaterProof.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/strings/WhitherStringBuilder.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/strings/WhitherStringBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javanet/WhoAmI.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javanet/WhoAmI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/Widget.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/javaConcurInPrac/ch02/Widget.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/learnjdbc/learnsql.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/learnjdbc/learnsql.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/shapes.class" afterPath="$PROJECT_DIR$/out/production/LearnJava/typeinfo/shapes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/DynamicProxy.java" afterPath="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/DynamicProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/algorithms/sort/Example.java" afterPath="$PROJECT_DIR$/src/algorithms/sort/Example.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnJava.iml" afterPath="$PROJECT_DIR$/LearnJava.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LittleTest.java" afterPath="$PROJECT_DIR$/src/LittleTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearnJava.iws" />
@@ -47,18 +268,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FibTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FibTest.java">
+      <file leaf-file-name="DynamicProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/DynamicProxy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1309#1339#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rechargable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/Rechargable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CastUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/CastUtil.java">
+      <file leaf-file-name="Vehicle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/Vehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElectricCar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/ElectricCar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <folding>
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenerateProxyForElectricCar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/GenerateProxyForElectricCar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4180602">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="y.ser" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/y.ser">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -67,103 +347,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestUtil.java">
+      <file leaf-file-name="InvocationHandlerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/InvocationHandlerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/ClassUtil.java">
+      <file leaf-file-name="Example.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/sort/Example.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hello.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/staticProxy/Hello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/staticProxy/HelloImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
               <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/staticProxy/HelloProxy.java">
+      <file leaf-file-name="CGlibProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/CGlibProxy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-              <folding>
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicProxy.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/DynamicProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7790055">
-              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/ArrayUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollectionUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/CollectionUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#445#475#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,20 +411,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/sort/Example.java" />
-        <option value="$PROJECT_DIR$/src/javaConcurInPrac/ch02/UnsafeCachingFactorizer.java" />
-        <option value="$PROJECT_DIR$/src/javaConcurInPrac/ch02/CachedFactorizer.java" />
-        <option value="$PROJECT_DIR$/src/javaConcurInPrac/ch02/CountingFactorizer.java" />
-        <option value="$PROJECT_DIR$/src/container/CounterWithoutAutoboxing.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/TwoSum.java" />
-        <option value="$PROJECT_DIR$/src/http/TestHTTP.java" />
-        <option value="$PROJECT_DIR$/src/http/TestHTTPTest.java" />
         <option value="$PROJECT_DIR$/src/javaConcurInPrac/ch02/SynchronizedFactorizer.java" />
         <option value="C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Enum.java" />
         <option value="$PROJECT_DIR$/src/enumerated/EnumClass.java" />
         <option value="$PROJECT_DIR$/src/enumerated/Spiciness.java" />
         <option value="$PROJECT_DIR$/src/enumerated/Burrito.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/generic/LinkedStack.java" />
         <option value="$PROJECT_DIR$/src/generic/Americano.java" />
         <option value="$PROJECT_DIR$/src/generics/Breve.java" />
@@ -242,6 +453,15 @@
         <option value="$PROJECT_DIR$/src/designPatterns/proxy/staticProxy/HelloImpl.java" />
         <option value="$PROJECT_DIR$/src/designPatterns/proxy/staticProxy/HelloProxy.java" />
         <option value="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/DynamicProxy.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/sort/Example.java" />
+        <option value="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/CGlibProxy.java" />
+        <option value="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/Rechargable.java" />
+        <option value="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/ElectricCar.java" />
+        <option value="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/InvocationImpl.java" />
+        <option value="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/InvocationHandlerImpl.java" />
+        <option value="$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/GenerateProxyForElectricCar.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -289,6 +509,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,104 +528,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="designPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="designPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="designPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dynamicProxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Changed Files">
           <PATH>
@@ -466,9 +592,9 @@
       <recent name="generics.coffee" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\LearnJava\libs" />
       <recent name="C:\IdeaProjects\LearnJava\src" />
       <recent name="C:\IdeaProjects\LearnJava\src\path" />
-      <recent name="C:\IdeaProjects\LearnJava\libs" />
       <recent name="C:\IdeaProjects\LearnJava" />
       <recent name="C:\IdeaProjects\LearnJava\src\generic" />
     </key>
@@ -487,57 +613,7 @@
       <recent name="util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DynamicProxy">
-    <configuration default="false" name="FibTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="FibTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearnJava" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TryCatchFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="learn.exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="learn.exception.TryCatchFinally" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearnJava" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestGetClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="TestGetClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearnJava" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.GenerateProxyForElectricCar">
     <configuration default="false" name="TestUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TestUtil" />
@@ -561,6 +637,52 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="designPatterns.proxy.dynamicProxy.DynamicProxy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearnJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CGlibProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="designPatterns.proxy.dynamicProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="designPatterns.proxy.dynamicProxy.CGlibProxy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearnJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="asm-all-4.0.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/libs/cglib-nodep-2.2.2.jar" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GenerateProxyForElectricCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="designPatterns.proxy.dynamicProxy.jdk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="designPatterns.proxy.dynamicProxy.jdk.GenerateProxyForElectricCar" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -774,7 +896,7 @@
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="JAR_PATH" value="$PROJECT_DIR$/src/util/jdbc.jar" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/libs/cglib-nodep-2.2.2.jar" />
       <envs />
       <method />
     </configuration>
@@ -953,19 +1075,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat8" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FibTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TryCatchFinally" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestGetClass" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestUtil" />
-      <item index="5" class="java.lang.String" itemvalue="Application.DynamicProxy" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestUtil" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DynamicProxy" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CGlibProxy" />
+      <item index="4" class="java.lang.String" itemvalue="JAR Application.asm-all-4.0.jar" />
+      <item index="5" class="java.lang.String" itemvalue="Application.GenerateProxyForElectricCar" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DynamicProxy" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestUtil" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FibTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestGetClass" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TryCatchFinally" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GenerateProxyForElectricCar" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CGlibProxy" />
+        <item index="2" class="java.lang.String" itemvalue="JAR Application.asm-all-4.0.jar" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DynamicProxy" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -1017,7 +1139,8 @@
       <workItem from="1501767255918" duration="175000" />
       <workItem from="1501911130193" duration="712000" />
       <workItem from="1501944153674" duration="2462000" />
-      <workItem from="1502007343986" duration="10871000" />
+      <workItem from="1502007343986" duration="17785000" />
+      <workItem from="1502207317007" duration="6295000" />
     </task>
     <task id="LOCAL-00001" summary="init algorithms sort">
       <created>1475910967302</created>
@@ -1067,15 +1190,33 @@
       <option name="project" value="LOCAL" />
       <updated>1491046514530</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="静态代理 Hello接口 Hello接口的实现类HelloImpl 静态代理类HelloProxy&#10;动态代理 DynamicProxy implements InvocationHandler 实现invoke方法，使用的时候工厂方法Proxy.newProxy(hello.getClass().getClassLoader, hello.getClass().getInterfaces(), dynamicProxy);这样产生新类的对象helloProxy，helloProxy.代理方法 执行即可">
+      <created>1502111966883</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1502111966883</updated>
+    </task>
+    <task id="LOCAL-00010" summary="静态代理 Hello接口 Hello接口的实现类HelloImpl 静态代理类HelloProxy&#10;动态代理 DynamicProxy implements InvocationHandler 实现invoke方法，使用的时候工厂方法Proxy.newProxy(hello.getClass().getClassLoader, hello.getClass().getInterfaces(), dynamicProxy);这样产生新类的对象helloProxy，helloProxy.代理方法 执行即可">
+      <created>1502112189500</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1502112189500</updated>
+    </task>
+    <task id="LOCAL-00011" summary="jar">
+      <created>1502215710890</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1502215710890</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71946000" />
+    <option name="totallyTimeSpent" value="85155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="2" width="3226" height="1712" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1084,14 +1225,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935393" sideWeight="0.50220263" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3305842" sideWeight="0.49528006" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3337979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3303136" sideWeight="0.49528006" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3337979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="1.0" sideWeight="0.49779737" order="10" side_tool="false" content_ui="tabs" x="1753" y="172" width="1368" height="1424" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14848289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961673" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1105,6 +1245,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961673" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1127,7 +1268,9 @@
     <MESSAGE value="生成器模式generator，适配器模式IterableFibonacci" />
     <MESSAGE value="generics" />
     <MESSAGE value="class Manipulator&lt;T extends HasF&gt; {}" />
-    <option name="LAST_COMMIT_MESSAGE" value="class Manipulator&lt;T extends HasF&gt; {}" />
+    <MESSAGE value="静态代理 Hello接口 Hello接口的实现类HelloImpl 静态代理类HelloProxy&#10;动态代理 DynamicProxy implements InvocationHandler 实现invoke方法，使用的时候工厂方法Proxy.newProxy(hello.getClass().getClassLoader, hello.getClass().getInterfaces(), dynamicProxy);这样产生新类的对象helloProxy，helloProxy.代理方法 执行即可" />
+    <MESSAGE value="jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="jar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1138,66 +1281,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/javaConcurInPrac/ch02/SynchronizedFactorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/jcip-annotations.jar!/net/jcip/annotations/ThreadSafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/http/TestHTTPTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/javanet/WhoAmI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="196" column="26" selection-start-line="196" selection-start-column="26" selection-end-line="196" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/enumerated/EnumClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/enumerated/Spiciness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/enumerated/Burrito.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0728745">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1348,13 +1435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/LearnJava/TestInvokeByteCode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/learn/exception/TryCatchFinally.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1366,11 +1446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#8153#0" expanded="false" />
-            <element signature="e#2279#2280#0" expanded="false" />
-            <element signature="e#2327#2328#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1378,11 +1453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="156" column="11" selection-start-line="156" selection-start-column="11" selection-end-line="156" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#9484#0" expanded="false" />
-            <element signature="e#1660#1661#0" expanded="false" />
-            <element signature="e#1692#1693#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1390,38 +1460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="805" column="16" selection-start-line="805" selection-start-column="16" selection-end-line="805" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#40012#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#4246#4247#0" expanded="false" />
-            <element signature="e#4278#4279#0" expanded="false" />
-            <element signature="e#14985#14986#0" expanded="false" />
-            <element signature="e#15015#15016#0" expanded="false" />
-            <element signature="e#15343#15344#0" expanded="false" />
-            <element signature="e#15374#15375#0" expanded="false" />
-            <element signature="e#19907#19908#0" expanded="false" />
-            <element signature="e#19950#19951#0" expanded="false" />
-            <element signature="e#20319#20320#0" expanded="false" />
-            <element signature="e#20359#20360#0" expanded="false" />
-            <element signature="e#20831#20832#0" expanded="false" />
-            <element signature="e#20871#20872#0" expanded="false" />
-            <element signature="e#21348#21349#0" expanded="false" />
-            <element signature="e#21388#21389#0" expanded="false" />
-            <element signature="e#21879#21880#0" expanded="false" />
-            <element signature="e#21919#21920#0" expanded="false" />
-            <element signature="e#22432#22433#0" expanded="false" />
-            <element signature="e#22472#22473#0" expanded="false" />
-            <element signature="e#22924#22925#0" expanded="false" />
-            <element signature="e#22948#22949#0" expanded="false" />
-            <element signature="e#23994#23995#0" expanded="false" />
-            <element signature="e#24036#24037#0" expanded="false" />
-            <element signature="e#24380#24381#0" expanded="false" />
-            <element signature="e#24405#24406#0" expanded="false" />
-            <element signature="e#29974#29975#0" expanded="false" />
-            <element signature="e#30017#30018#0" expanded="false" />
-            <element signature="e#32148#32149#0" expanded="false" />
-            <element signature="e#32194#32195#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1429,44 +1467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="518" column="6" selection-start-line="518" selection-start-column="6" selection-end-line="518" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#147821#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#23047#23048#0" expanded="false" />
-            <element signature="e#23104#23105#0" expanded="false" />
-            <element signature="e#23453#23454#0" expanded="false" />
-            <element signature="e#23509#23510#0" expanded="false" />
-            <element signature="e#32636#32637#0" expanded="false" />
-            <element signature="e#32683#32684#0" expanded="false" />
-            <element signature="e#45841#45842#0" expanded="false" />
-            <element signature="e#45932#45933#0" expanded="false" />
-            <element signature="e#56746#56747#0" expanded="false" />
-            <element signature="e#56789#56790#0" expanded="false" />
-            <element signature="e#58208#58209#0" expanded="false" />
-            <element signature="e#58257#58258#0" expanded="false" />
-            <element signature="e#58496#58497#0" expanded="false" />
-            <element signature="e#58567#58568#0" expanded="false" />
-            <element signature="e#58809#58810#0" expanded="false" />
-            <element signature="e#58891#58892#0" expanded="false" />
-            <element signature="e#104463#104464#0" expanded="false" />
-            <element signature="e#104523#104524#0" expanded="false" />
-            <element signature="e#112572#112573#0" expanded="false" />
-            <element signature="e#112604#112605#0" expanded="false" />
-            <element signature="e#112898#112899#0" expanded="false" />
-            <element signature="e#112942#112943#0" expanded="false" />
-            <element signature="e#114513#114514#0" expanded="false" />
-            <element signature="e#114550#114551#0" expanded="false" />
-            <element signature="e#114579#114580#0" expanded="false" />
-            <element signature="e#114620#114621#0" expanded="false" />
-            <element signature="e#117160#117161#0" expanded="false" />
-            <element signature="e#117198#117199#0" expanded="false" />
-            <element signature="e#136811#136812#0" expanded="false" />
-            <element signature="e#136896#136897#0" expanded="false" />
-            <element signature="e#139547#139548#0" expanded="false" />
-            <element signature="e#139624#139625#0" expanded="false" />
-            <element signature="e#144390#144391#0" expanded="false" />
-            <element signature="e#144427#144428#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1474,10 +1474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#15880#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1485,11 +1481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1609#1610#0" expanded="false" />
-            <element signature="e#1656#1657#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1497,42 +1488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="179" column="38" selection-start-line="179" selection-start-column="38" selection-end-line="179" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#53706#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#11566#11567#0" expanded="false" />
-            <element signature="e#11597#11598#0" expanded="false" />
-            <element signature="e#26565#26566#0" expanded="false" />
-            <element signature="e#26601#26602#0" expanded="false" />
-            <element signature="e#40171#40172#0" expanded="false" />
-            <element signature="e#40220#40221#0" expanded="false" />
-            <element signature="e#40917#40918#0" expanded="false" />
-            <element signature="e#40958#40959#0" expanded="false" />
-            <element signature="e#41780#41781#0" expanded="false" />
-            <element signature="e#41834#41835#0" expanded="false" />
-            <element signature="e#43077#43078#0" expanded="false" />
-            <element signature="e#43127#43128#0" expanded="false" />
-            <element signature="e#44970#44971#0" expanded="false" />
-            <element signature="e#45051#45052#0" expanded="false" />
-            <element signature="e#51559#51560#0" expanded="false" />
-            <element signature="e#51621#51622#0" expanded="false" />
-            <element signature="e#51882#51883#0" expanded="false" />
-            <element signature="e#51946#51947#0" expanded="false" />
-            <element signature="e#52191#52192#0" expanded="false" />
-            <element signature="e#52255#52256#0" expanded="false" />
-            <element signature="e#52326#52327#0" expanded="false" />
-            <element signature="e#52394#52395#0" expanded="false" />
-            <element signature="e#52670#52671#0" expanded="false" />
-            <element signature="e#52739#52740#0" expanded="false" />
-            <element signature="e#52802#52803#0" expanded="false" />
-            <element signature="e#52848#52849#0" expanded="false" />
-            <element signature="e#53097#53098#0" expanded="false" />
-            <element signature="e#53158#53159#0" expanded="false" />
-            <element signature="e#53238#53239#0" expanded="false" />
-            <element signature="e#53302#53303#0" expanded="false" />
-            <element signature="e#53360#53361#0" expanded="false" />
-            <element signature="e#53422#53423#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1540,15 +1495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/LearnJava/FibTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1556,7 +1502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1564,15 +1509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/ArrayUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1580,9 +1516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1590,9 +1523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1600,7 +1530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1617,8 +1546,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="false" />
+            <element signature="e#217#218#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1627,30 +1556,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/ReflectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/ArrayUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="false" />
+            <element signature="e#238#239#0" expanded="false" />
+            <element signature="e#292#293#0" expanded="false" />
+            <element signature="e#340#341#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/sort/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/CGlibProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#445#475#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/DynamicProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7790055">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#1309#1339#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/Rechargable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/ElectricCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/InvocationHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designPatterns/proxy/dynamicProxy/jdk/GenerateProxyForElectricCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/y.ser">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4180602">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -33,11 +33,22 @@ public class DynamicProxy implements InvocationHandler {
     public static void main(String[] args) {
         Hello hello = new HelloImpl();
         DynamicProxy dynamicProxy = new DynamicProxy(hello);
-        Hello helloProxy = (Hello) Proxy.newProxyInstance(
-                hello.getClass().getClassLoader(),
-                hello.getClass().getInterfaces(),
-                dynamicProxy
-        );
+        //每次动态代理豆这么多参数比较恶心 而且是固定的，重构
+//        Hello helloProxy = (Hello) Proxy.newProxyInstance(
+//                hello.getClass().getClassLoader(),
+//                hello.getClass().getInterfaces(),
+//                dynamicProxy
+//        );
+        Hello helloProxy = dynamicProxy.getProxy();
         helloProxy.say("jack");
+    }
+
+    @SuppressWarnings("unchecked")
+    public <T> T getProxy() {
+        return (T) Proxy.newProxyInstance(
+                target.getClass().getClassLoader(),
+                target.getClass().getInterfaces(),
+                this
+        );
     }
 }
