@@ -6,6 +6,12 @@
     <file url="file://$PROJECT_DIR$/libs/commons-lang3-3.4.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/libs/slf4j-api-1.7.5.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/TestUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/algorithms/offer/ArrayCopy.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/algorithms/offer/CengXuBianLi.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/algorithms/offer/Fibonacci.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/algorithms/offer/PushPop.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/algorithms/offer/SortedArrayFindInteger.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/algorithms/offer/SumPath.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/javaConcurInPrac/ch02/CountingFactorizer.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/jdbc.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/util" charset="UTF-8" />
