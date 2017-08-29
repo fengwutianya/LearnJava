@@ -1,5 +1,5 @@
 #*.jar
-.idea
+.idea/*
 *.class
 /out
 LearnJava.iml
