@@ -29,6 +29,7 @@ public class ForNameCreator extends PetCreator{
         try {
             for (String name : typeNames) {
                 types.add((Class<? extends Pet>) Class.forName(name));
+                //forName ÔËÐÐÆÚ
             }
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
