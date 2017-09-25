@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FilterInputStream;
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 
 /**
  * Created by xuan on 2016/8/4 0004.
@@ -27,6 +28,10 @@ public class LittleTest extends ToyTest{
 //        cl = double[].class;
 //        cl = ToyTest.class;
 //        B.print();
+        Method[] methods = Object.class.getDeclaredMethods();
+        for (Method method: methods) {
+            System.out.println(method.getName());
+        }
     }
 
     static void throwException() throws Exception {

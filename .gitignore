@@ -3,3 +3,5 @@
 *.class
 /out
 LearnJava.iml
+hello.txt
+src/jdbc.jar
